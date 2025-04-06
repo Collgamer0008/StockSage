@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### 3. Run the FastAPI application:
 ```bash
 cd backend
-uvicorn fastapi_app.main:app --reload
+uvicorn main:app --reload
 ```
 
 ### 3. Run the React application:
