@@ -31,7 +31,7 @@ Here’s an overview of the system architecture showing how different components
 - **Ollama**: For on-prem LLMs and embedding models.
 - **SQLite**: For long-term data storage and memory.
 - **FastAPI**: For creating APIs that expose agents' functionalities.
-- **Multi-Agent Framework**: For coordinating various agents in a seamless workflow.
+- **Multi-Agent Framework (CrewAI)**: For coordinating various agents in a seamless workflow.
 - **Python**: The primary language for the backend agents and API implementation.
 
 ### Frontend
