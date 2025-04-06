@@ -23,7 +23,7 @@ The HtmlConverter agent transforms raw outputs from the InsightAnalyst into well
 
 Here’s an overview of the system architecture showing how different components and agents interact with each other:
 
-![System Model](path/to/your/system-model-image.png)
+![System Model](stocksage_system_model.png)
 
 ## Technologies Used
 
