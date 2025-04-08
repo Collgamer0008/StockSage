@@ -38,25 +38,35 @@ Here’s an overview of the system architecture showing how different components
 - **React**: For creating interactive user interfaces.
 - **JavaScript (JSX)**: For frontend logic and rendering dynamic content.
 
-## Setup
+## LLM Model Used
+**LLaMA 3**  
+We chose LLaMA 3 for its strong language understanding and lightweight deployment via Ollama. It runs efficiently on local hardware, making it ideal for real-time multi-agent coordination without relying on cloud-based APIs.
 
-### 1. Clone the repository:
+## Setup
+### 1. Install Ollama and LLaMA 3:
+Make sure you have [Ollama](https://ollama.com/download) installed. Then, run the following command to pull the LLaMA 3 model:
+
 ```bash
-git clone https://github.com/yourusername/ecomai.git
-cd ecomai
+ollama pull llama3
 ```
 
-### 2. Install dependencies:
+### 2. Clone the repository:
+```bash
+git clone https://github.com/Collgamer0008/StockSage.git
+cd StockSage
+```
+
+### 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Run the FastAPI application:
+### 4. Run the FastAPI application:
 ```bash
 cd backend
 uvicorn main:app --reload
 ```
 
-### 3. Run the React application:
+### 5. Run the React application:
 ```bash
 cd frontend 
 npm run dev
